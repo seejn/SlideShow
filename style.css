@@ -52,7 +52,10 @@ body{
     cursor: pointer;
     padding: 0.8rem 0.5rem;
 }
-.active{
+.slideShow .slideButton .arrow:active {
+    color: white;
+}
+    .active{
     color: rgb(241, 137, 0);
     
 }
@@ -61,8 +64,4 @@ body{
 }
 .slideShow .slideButton .dots .dot:hover{
     color: rgb(241, 137, 0);
-}
-@keyframes animation{
-    from{opacity: 0.3}
-    to{opacity: 1}
 }
