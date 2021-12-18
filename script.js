@@ -60,8 +60,8 @@
             let images = ["wallpaperflare.com_wallpaper (0).jpg", "wallpaperflare.com_wallpaper (1).jpg", "wallpaperflare.com_wallpaper (2).jpg", "wallpaperflare.com_wallpaper (3).jpg", "wallpaperflare.com_wallpaper (4).jpg", "wallpaperflare.com_wallpaper (5).jpg", "wallpaperflare.com_wallpaper (6).jpg", "wallpaperflare.com_wallpaper (7).jpg", "wallpaperflare.com_wallpaper (8).jpg", "wallpaperflare.com_wallpaper (9).jpg", "wallpaperflare.com_wallpaper (10).jpg", "wallpaperflare.com_wallpaper (11).jpg"];
             for(let i = 0; i < images.length; i++)
                 addImg(images[i]); 
-            // dot();
-            // dotActive();
+            dot();
+            dotActive();
         }
         slideShow();
         var setIntervalId = setInterval(() => {
