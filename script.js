@@ -85,13 +85,16 @@
         //fade animation
         function fade(){
             var n = 0.4;
+            var start = Date.now();
             setIntervalId = setInterval(() => {
+                var timeDiff = Date.now() - start;
+                console.log(timeDiff);
                 imgTag.style.opacity = 0 + n;
                 n = n + 0.1;
-                if(n > 1){
+                if(n > 1 || timeDiff > 1000){
                     clearInterval(setIntervalId);
                 }
-            }, 50, n);
+            }, 50, n, start);
             return;
         }
         //calling the slideShow function
